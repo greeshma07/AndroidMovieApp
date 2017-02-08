@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.udayton.onlinemoviebooking.Payment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/paymentTitle"
+        android:id="@+id/payTitleTextView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/titleTxtSize"
+        android:layout_marginBottom="@dimen/margin20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint"
+        android:id="@+id/hint1TextView"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/listItemTextSize"
+        android:layout_marginBottom="@dimen/margin10dp"
+        android:layout_marginTop="@dimen/margin20dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardTypeSpinner"
+        android:entries="@array/cardType"
+        android:prompt="@string/prompt"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/cardNameEditText"
+        android:textSize="@dimen/listItemTextSize"
+        android:textColor="@android:color/black"
+        android:hint="@string/nameCard" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/cardNoEditText"
+        android:hint="@string/cardNO"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/listItemTextSize" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/dateEditText"
+        android:hint="@string/expDate"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/listItemTextSize" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/secCodeEditText"
+        android:layout_marginBottom="@dimen/margin10dp"
+        android:hint="@string/secCode"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/listItemTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/totalAmt"
+        android:id="@+id/amtTextView"
+        android:layout_marginBottom="@dimen/margin10dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="@dimen/margin10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payBtnText"
+        android:id="@+id/payButton"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/textSize"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

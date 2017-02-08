@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin10dp">10dp</dimen>
+    <dimen name="margin5dp">5dp</dimen>
+    <dimen name="margin20dp">20dp</dimen>
+
+    <!-- dimensions for standard layout -->
+    <dimen name="homeImgWidth">300dp</dimen>
+    <dimen name="homeImgHght">175dp</dimen>
+    <dimen name="outImgWidth">365dp</dimen>
+    <dimen name="outImgHeight">280dp</dimen>
+    <dimen name="imgWidth">150dp</dimen>
+    <dimen name="imgHeight">120dp</dimen>
+    <dimen name="ratingBarImgWidth">140dp</dimen>
+    <dimen name="ratingBarImgHght">40dp</dimen>
+    <dimen name="titleTxtSize">33sp</dimen>
+    <dimen name="textSize">27sp</dimen>
+    <dimen name="subTitleTextSize">23sp</dimen>
+    <dimen name="listItemTextSize">20sp</dimen>
+
+    <!-- dimensions for large layout -->
+    <dimen name="largeOutImgWidth">450dp</dimen>
+    <dimen name="largeOutImgHght">390dp</dimen>
+    <dimen name="largeHomeImgWdth">400dp</dimen>
+    <dimen name="largeHomeImgHght">300dp</dimen>
+    <dimen name="largeImgWidth">250dp</dimen>
+    <dimen name="largeImgHeight">300dp</dimen>
+    <dimen name="largeRatingBarImgWidth">250dp</dimen>
+    <dimen name="largeRatingBarImgHght">60dp</dimen>
+    <dimen name="largeTitleTxtSize">55sp</dimen>
+    <dimen name="largeTextSize">47sp</dimen>
+    <dimen name="largeSubTitleTextSize">39sp</dimen>
+    <dimen name="largeListItemTextSize">33sp</dimen>
+
+    <!-- dimensions for xlarge layout -->
+    <dimen name="xlargeOutImgWidth">500dp</dimen>
+    <dimen name="xlargeOutImgHght">390dp</dimen>
+    <dimen name="xlargeHomeImgWdth">500dp</dimen>
+    <dimen name="xlargeHomeImgHght">390dp</dimen>
+    <dimen name="xlargeImgWidth">300dp</dimen>
+    <dimen name="xlargeImgHeight">350dp</dimen>
+    <dimen name="xlargeRatingBarImgWidth">280dp</dimen>
+    <dimen name="xlargeRatingBarImgHght">80dp</dimen>
+    <dimen name="xlargeTitleTxtSize">66sp</dimen>
+    <dimen name="xlargeTextSize">54sp</dimen>
+    <dimen name="xlargeSubTitleTextSize">46sp</dimen>
+    <dimen name="xlargeListItemTextSize">40sp</dimen>
+</resources>

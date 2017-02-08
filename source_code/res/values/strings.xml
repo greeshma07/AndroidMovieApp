@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Online Movie Booking</string>
+    <string name="movieTheater">movieTheaterImg</string>
+    <string name="upComMov">Upcoming Movies</string>
+    <string name="runMovies">Running Movies</string>
+    <string name="movies">Movies</string>
+
+    <string-array name="runningMovies">
+        <item>Lights Out</item>
+        <item>The Shallows</item>
+        <item>The Conjuring 2</item>
+        <item>The Secret Life of Pets</item>
+        <item>Ghostbusters</item>
+        <item>Finding Dory</item>
+        <item>The Legend of Tarzan</item>
+        <item>The Jungle Book</item>
+    </string-array>
+
+    <string-array name="upcomingMovies">
+        <item>Suicide Squad (August 5,2016)</item>
+        <item>Petes Dragon (August 12,2016)</item>
+        <item>Ben-Hur (August 19,2016)</item>
+        <item>Kubo and the Two Strings (August 19,2016)</item>
+        <item>Mechanic: Resurrection (August 26,2016)</item>
+    </string-array>
+
+    <string-array name="cardType">
+        <item>MasterCard</item>
+        <item>VISA</item>
+        <item>American Express</item>
+    </string-array>
+
+    <string name="viewMovieList">Get Movie List</string>
+    <string name="welcomeText">Welcome To Online Movie Booking App!</string>
+    <string name="upcomingMoviesText">Upcoming Movies and their Release Dates:</string>
+    <string name="suicideSquadUrl">https://en.wikipedia.org/wiki/Suicide_Squad_(film)</string>
+    <string name="petesDragonUrl">https://en.wikipedia.org/wiki/Pete%27s_Dragon_(2016_film)</string>
+    <string name="benHurUrl">https://en.wikipedia.org/wiki/Ben-Hur_(2016_film)</string>
+    <string name="kuboUrl">https://en.wikipedia.org/wiki/Kubo_and_the_Two_Strings</string>
+    <string name="mechanicUrl">https://en.wikipedia.org/wiki/Mechanic:_Resurrection</string>
+    <string name="movTitle">Movie Title</string>
+    <string name="ratingBar">Rating Bar Image</string>
+    <string name="showtimesCon">Showtimes for The Conjuring 2</string>
+    <string name="showtimesLights">Showtimes for Lights Out</string>
+    <string name="showtimesShallows">Showtimes for The Shallows</string>
+    <string name="timeText">All times are in ET</string>
+    <string name="buttonCon">More Info on The Conjuring 2</string>
+    <string name="buttonLights">More Info on Lights Out</string>
+    <string name="buttonShallows">More Info on The Shallows</string>
+    <string name="bookButtonText">Buy Tickets</string>
+    <string name="conUrl">https://en.wikipedia.org/wiki/The_Conjuring_2</string>
+    <string name="lightsUrl">https://en.wikipedia.org/wiki/Lights_Out_(2016_film)</string>
+    <string name="shallowsUrl">https://en.wikipedia.org/wiki/The_Shallows_(film)</string>
+    <string name="trailerShallows">https://www.youtube.com/watch?v=vPOpE-_42as</string>
+    <string name="trailerCon">https://www.youtube.com/watch?v=VFsmuRPClr4</string>
+    <string name="trailerLights">https://www.youtube.com/watch?v=6LiKKFZyhRU</string>
+    <string name="radBtn1Con">Mon 10:00am</string>
+    <string name="radBtn2Con">Mon 2:00pm</string>
+    <string name="radBtn3Con">Wed 12:00pm</string>
+    <string name="radBtn4Con">Thu 9:30pm</string>
+    <string name="showtimes">Showtimes</string>
+    <string name="trailerBtnText">Watch Trailer</string>
+    <string name="moreInfoButton">More Info</string>
+    <string name="radBtn1">showtime1</string>
+    <string name="radBtn2">showtime2</string>
+    <string name="radBtn3">showtime3</string>
+    <string name="radBtn4">showtime4</string>
+    <string name="radBtn1Lights">Tue 3:40pm</string>
+    <string name="radBtn2Lights">Tue 9:25pm</string>
+    <string name="radBtn3Lights">Fri 11:00am</string>
+    <string name="radBtn4Lights">Fri 6:00pm</string>
+    <string name="movieLogo">Movie Logo</string>
+    <string name="conTitle">The Conjuring 2</string>
+    <string name="lightsTitle">Lights Out</string>
+    <string name="shallowsTitle">The Shallows</string>
+    <string name="conCost">17</string>
+    <string name="lightsCost">10</string>
+    <string name="shallowsCost">8</string>
+    <string name="ticketCost">Ticket Price: $</string>
+    <string name="seatCount">Seats left:</string>
+    <string name="firstName">First Name</string>
+    <string name="hint">*All fields are mandatory</string>
+    <string name="lastName">Last Name</string>
+    <string name="emailID">Email ID:</string>
+    <string name="mobNO">Mobile NO:</string>
+    <string name="ticketNum">How many Tickets??</string>
+    <string name="makePayBtnText">Make Payment</string>
+    <string name="paymentTitle">Payment Details</string>
+    <string name="nameCard">Name on Card</string>
+    <string name="cardNO">Card NO:</string>
+    <string name="expDate">Expiry Date</string>
+    <string name="secCode">Security Code</string>
+    <string name="totalAmt">Ticket Amount :</string>
+    <string name="payBtnText">Pay</string>
+    <string name="outText">You have successfully booked your tickets. An email confirmation with the ticket details will be sent to you shortly!</string>
+    <string name="prompt">Card Type</string>
+    <string name="txtSplash">Online Movie Booking App</string>
+    <string name="outMsg">Output Message</string>
+    <string name="playLbl">Play</string>
+    <string name="pauseLbl">Pause</string>
+    <string name="radBtn1Shal">Tue 2:15pm</string>
+    <string name="radBtn2Shal">Tue 4:45pm</string>
+    <string name="radBtn3Shal">Thu 7:00pm</string>
+    <string name="radBtn4Shal">Fri 11:00am</string>
+    <string name="showtimesPets">ShowTimes for The Secret Life of Pets</string>
+    <string name="showtimesGhost">Showtimes for Ghostbusters</string>
+    <string name="showtimesDory">Showtimes for Finding Dory</string>
+    <string name="showtimesLegend">Showtimes for The Legend of Tarzan</string>
+    <string name="showtimesJungle">Showtimes for The Jungle Book</string>
+    <string name="petsUrl">https://en.wikipedia.org/wiki/The_Secret_Life_of_Pets</string>
+    <string name="jungleUrl">https://en.wikipedia.org/wiki/The_Jungle_Book_(2016_film)</string>
+    <string name="tarzanUrl">https://en.wikipedia.org/wiki/The_Legend_of_Tarzan_(film)</string>
+    <string name="doryUrl">https://en.wikipedia.org/wiki/Finding_Dory</string>
+    <string name="ghostUrl">https://en.wikipedia.org/wiki/Ghostbusters_(2016_film)</string>
+    <string name="trailerPets">https://www.youtube.com/watch?v=eWI_Jsw9qUs</string>
+    <string name="trailerJungle">https://www.youtube.com/watch?v=5mkm22yO-bs</string>
+    <string name="trailerDory">https://www.youtube.com/watch?v=MKJA-VLpiCo</string>
+    <string name="trailerTarzan">https://www.youtube.com/watch?v=dLmKio67pVQ</string>
+    <string name="trailerGhost">https://www.youtube.com/watch?v=t6hlkIlGFCI</string>
+    <string name="btnPets">More Info on The Secret Life of Pets</string>
+    <string name="btnDory">More Info on Finding Dory</string>
+    <string name="btnTarzan">More Info on The Legend of Tarzan</string>
+    <string name="btnJungle">More Info on The Jungle Book</string>
+    <string name="btnGhost">More Info on Ghostbusters</string>
+    <string name="petsTitle">The Secret Life of Pets</string>
+    <string name="doryTitle">Finding Dory</string>
+    <string name="tarzanTitle">The Legend of Tarzan</string>
+    <string name="ghostTitle">Ghostbusters</string>
+    <string name="jungleTitle">The Jungle Book</string>
+    <string name="costPets">11</string>
+    <string name="costDory">12</string>
+    <string name="costJungle">20</string>
+    <string name="costTarzan">15</string>
+    <string name="costGhost">13</string>
+    <string name="radBtn1Pets">Wed 12:00pm</string>
+    <string name="radBtn2Pets">Thu 1:15pm</string>
+    <string name="radBtn3Pets">Thu 7:00pm</string>
+    <string name="radBtn4Pets">Fri 8:00pm</string>
+    <string name="radBtn1Dory">Mon 7:00pm</string>
+    <string name="radBtn2Dory">Mon 10:00pm</string>
+    <string name="radBtn3Dory">Fri 7:45pm</string>
+    <string name="radBtn4Dory">Fri 9:30pm</string>
+    <string name="radBtn1Ghost">Tue 10:00pm</string>
+    <string name="radBtn2Ghost">Wed 9:35pm</string>
+    <string name="radBtn3Ghost">Thu 7:00pm</string>
+    <string name="radBtn4Ghost">Fri 11:00pm</string>
+    <string name="radBtn1Jungle">Sun 5:00pm</string>
+    <string name="radBtn2Jungle">Sun 8:00pm</string>
+    <string name="radBtn3Jungle">Fri 6:45pm</string>
+    <string name="radBtn4Jungle">Sat 8:15pm</string>
+    <string name="radBtn1Tarzan">Mon 9:15pm</string>
+    <string name="radBtn2Tarzan">Fri 7:00pm</string>
+    <string name="radBtn3Tarzan">Sat 6:35pm</string>
+    <string name="radBtn4Tarzan">Sun 7:50pm</string>
+    <string name="appDemoTxt">App Demo(Audio)</string>
+</resources>
